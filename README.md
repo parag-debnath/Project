@@ -33,11 +33,11 @@ The dataset includes:
 
 📌 Shows how close predictions are to real values
 
-plt.scatter(y_test, y_pred)
+***plt.scatter(y_test, y_pred)
 plt.xlabel("Actual Price")
 plt.ylabel("Predicted Price")
 plt.title("Actual vs Predicted Price")
-plt.show()
+plt.show()***
 🔹 Heatmap (Feature Correlation)
 
 📌 Shows relationship between features
