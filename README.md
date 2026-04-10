@@ -3,7 +3,7 @@ The goal is to understand how factors like income, number of rooms, and populati
 
 I built a model using Linear Regression that can estimate house prices based on these features.
 
-⚙️ What I Did
+***⚙️ What I Did***
 
 ✨ Cleaned the dataset  
 ✨ Handled outliers using IQR  
@@ -12,7 +12,7 @@ I built a model using Linear Regression that can estimate house prices based on 
 ✨ Trained Linear Regression  
 ✨ Evaluated using MAE & R²  
 
-📊 Dataset
+***📊 Dataset***
 
 The dataset includes:
 🏘️ Area Income
@@ -22,13 +22,14 @@ The dataset includes:
 👥 Population
 💰 Price (target)
 
-📈 Results
+***📈 Results***
 
 ✔ The model achieved an average error of around ₹82,000
 ✔ Predictions are very close to actual values
 ✔ The model shows good performance on test data
 
-📉 Visualizations
+***📉 Visualizations****
+
 🔹 Scatter Plot (Actual vs Predicted)
 
 📌 Shows how close predictions are to real values
@@ -38,20 +39,23 @@ plt.xlabel("Actual Price")
 plt.ylabel("Predicted Price")
 plt.title("Actual vs Predicted Price")
 plt.show()
+
 🔹 Heatmap (Feature Correlation)
 
 📌 Shows relationship between features
 
-sns.heatmap(df.corr(), annot=True)
+***sns.heatmap(df.corr(), annot=True)
 plt.title("Correlation Heatmap")
-plt.show()
+plt.show()***
+
 🔹 Probability Distribution 📊
 
 📌 Shows how data is distributed
 
-sns.kdeplot(df['Price'], fill=True)
+***sns.kdeplot(df['Price'], fill=True)
 plt.title("Price Distribution")
-plt.show()
+plt.show()***
+
 🔹 Bar Graph 📊
 
 📌 Compare values easily
@@ -60,14 +64,16 @@ sample = results.head(10)
 sample.plot(kind='bar')
 plt.title("Actual vs Predicted")
 plt.show()
+
 🔹 3D Plot 🌐
 
 📌 Shows relationship between multiple features
 
-ax.scatter(df['Avg. Area Income'],
+***ax.scatter(df['Avg. Area Income'],
            df['Avg. Area Number of Rooms'],
-           df['Price'])
-🔮 Future Improvements
+           df['Price'])***
+           
+***🔮 Future Improvements***
 
 🚀 Use advanced models (Random Forest, XGBoost)
 🚀 Add more real-world features
