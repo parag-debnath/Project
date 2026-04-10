@@ -66,10 +66,12 @@ plt.show()
 
 📌 Compare values easily
 
+```python
 sample = results.head(10)
 sample.plot(kind='bar')
 plt.title("Actual vs Predicted")
 plt.show()
+```
 
 🔹 3D Plot 🌐
 
