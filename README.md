@@ -46,17 +46,21 @@ plt.show()
 
 📌 Shows relationship between features
 
-***sns.heatmap(df.corr(), annot=True)
+```python
+sns.heatmap(df.corr(), annot=True)
 plt.title("Correlation Heatmap")
-plt.show()***
+plt.show()
+```
 
 🔹 Probability Distribution 📊
 
 📌 Shows how data is distributed
 
-***sns.kdeplot(df['Price'], fill=True)
+```python
+sns.kdeplot(df['Price'], fill=True)
 plt.title("Price Distribution")
-plt.show()***
+plt.show()
+```
 
 🔹 Bar Graph 📊
 
@@ -71,9 +75,11 @@ plt.show()
 
 📌 Shows relationship between multiple features
 
-***ax.scatter(df['Avg. Area Income'],
+```python
+ax.scatter(df['Avg. Area Income'],
            df['Avg. Area Number of Rooms'],
-           df['Price'])***
+           df['Price'])
+```
            
 ***🔮 Future Improvements***
 
