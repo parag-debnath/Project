@@ -5,12 +5,12 @@ I built a model using Linear Regression that can estimate house prices based on 
 
 ⚙️ What I Did
 
-✨ Cleaned the dataset and removed unnecessary columns
-✨ Handled outliers using the IQR method
-✨ Converted categorical data into numerical form
-✨ Visualized the dataset using different plots 📊
-✨ Trained a Linear Regression model
-✨ Evaluated the model using MAE and R² score
+✨ Cleaned the dataset  
+✨ Handled outliers using IQR  
+✨ Converted categorical data  
+✨ Visualized data  
+✨ Trained Linear Regression  
+✨ Evaluated using MAE & R²  
 
 📊 Dataset
 
