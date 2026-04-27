@@ -1,4 +1,4 @@
-This project is about predicting house prices using machine learning 🤖.
+This project is about predicting house prices using machine learning .
 The goal is to understand how factors like income, number of rooms, and population affect house prices.
 
 I built a model using Linear Regression that can estimate house prices based on these features.
